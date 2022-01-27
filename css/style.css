@@ -1,0 +1,48 @@
+/* body{
+    background-image:url("../img/godzilla.jpg");
+    background-size:cover;
+    background-position:center;
+} */
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  /* background-image:url("../img/leadlogo.png"),url("../img/cloud.png");
+    background-repeat:no-repeat;
+    object-fit: cover;
+    background-size: 150px,cover;
+    background-position:top center,0px 0px; */
+}
+.test-bg-img {
+  background-color: rgba(0, 0, 0, 0.575);
+
+  background-position: center;
+  background-blend-mode: multiply;
+  background-size: cover;
+  height: 400px;
+}
+.test2-bg-img {
+  background: url("../img/cloud.png"), rgba(0, 0, 0, 0.575);
+
+  background-position: center;
+  background-blend-mode: multiply;
+  background-size: cover;
+  height: 400px;
+}
+.test3-bg-img {
+  background: url("../img/meena.jpg"), rgba(0, 0, 0, 0.575);
+
+  background-position: center;
+  background-blend-mode: multiply;
+  background-size: cover;
+  height: 400px;
+}
+.packages-bg {
+  background-image: url("../img/leadlogo.png"), url("../img/cloud.png"),
+    linear-gradient(red, green);
+  background-repeat: no-repeat;
+  background-size: 150px, cover, cover;
+  background-position: center center, 0px 0px, 0% 0%;
+  background-blend-mode: multiply;
+  height: 500px;
+}
